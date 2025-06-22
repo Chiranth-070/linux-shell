@@ -1,0 +1,39 @@
+# Binary & object files
+*.o
+*.exe
+*.out
+*.a
+*.so
+
+# Build artifacts
+bin/
+build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# IDE/editor files
+.vscode/
+*.code-workspace
+*.idea/
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# History files (from readline)
+.history
+.history.*
+
+# Core dumps
+core
+core.*
+
+# Logs
+*.log
+
+# Backup & temp files
+*~
+*.swp
